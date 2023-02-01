@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+      <link rel="shortcut icon" type="png" href="images/icon/logo2.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Bài tập - Ôn thi digital SAT</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+      </head>
+      <body>
+            <header id="header">
+                  <nav>
+                        <div class="logo"><img src="images/icon/logo3.png" alt="logo"></div>
+                        <ul>
+                              <li><a class="active" href="index.html">Trang chủ</a></li>
+                              <li><a href="exercises.html">Các bài tập</a></li>
+                              <li><a href="#services_section">Học online</a></li>
+                              <li><a href="#contactus_section">Liên hệ</a></li>
+                              <li><a href="#contactus_section">Tin tức</a></li>
+                              <a href="https://www.facebook.com/profile.php?id=100088494652396" target="_blank">
+                              <img src="images/icon/fb2.png"></a>
+                              <img src="images/icon/insta2.png">
+                              <img src="images/icon/tt2.png">
+                        </ul>
+                        <a class="get-started" href="login.html">Get Started</a>
+                        <img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+                  </nav>
+                  
+                  <div>
+                        <iframe id = "exer" style="padding-top: 200px; padding-left: 200px; align-items: center" src="https://docs.google.com/forms/d/e/1FAIpQLSf02_ApjFdBuAAvVRQmp6Urevgwskrbiv9NoVAX8HedL-voRA/viewform?embedded=true" width="1200" height="750" frameborder="0" marginheight="0" marginwidth="0">Đang tải…</iframe>
+                  </div>
+            </header>
+            
+      </body>
+</html>

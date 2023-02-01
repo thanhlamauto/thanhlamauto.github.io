@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+      <link rel="shortcut icon" type="png" href="images/icon/logo2.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Bài tập - Ôn thi digital SAT</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+      </head>
+      <body>
+            <header style="height: 10vh" id="header">
+                  <nav>
+                        <div class="logo"><img src="images/icon/logo3.png" alt="logo"></div>
+                        <ul>
+                              <li><a class="active" href="index.html">Trang chủ</a></li>
+                              <li><a href="exercises.html">Các bài tập</a></li>
+                              <li><a href="studyonline.html">Học online</a></li>
+                              <li><a href="#contactus_section">Liên hệ</a></li>
+                              <li><a href="news.html">Tin tức</a></li>
+                              <a href="https://www.facebook.com/profile.php?id=100088494652396" target="_blank">
+                              <img src="images/icon/fb2.png"></a>
+                              <img src="images/icon/insta2.png">
+                              <img src="images/icon/tt2.png">
+                        </ul>
+                        <a class="get-started" href="login.html">Get Started</a>
+                        <img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+                  </nav>
+            </header>
+                  <div style="background-image: url('background.jpg');"class="service-swipe">
+                        <div class="diffSection" id="services_section">
+                        <enter><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Các bài tập</p></enter>
+                        </div>
+                        <a href="exercises1.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 1</p></div></a>
+                        <a href="exercises2.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 2</p></div></a>
+                        <a href="exercises3.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 3</p></div></a>
+                        <a href="exercises4.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 4</p></div></a>
+                        <a href="404.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 5</p></div></a>
+                        <a href="404.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 6</p></div></a>
+                        <a href="404.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 7</p></div></a>
+                        <a href="404.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 8</p></div></a>
+                        <a href="404.html"><div class="s-card"><img src="images/icon/test.png"><p>WEEK 9</p></div></a>
+                  </div>
+      </body>
+</html>
